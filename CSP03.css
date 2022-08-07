@@ -1,0 +1,30 @@
+body{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE-y5msJJmkJL2__rJWj_hMMrQ7dZ0AFFIBw&usqp=CAU");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.title{
+  justify-content: center;
+  text-align: center;
+  padding-top: 2%;
+}
+.cards{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.card{
+  padding-inline: 2%;
+}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
